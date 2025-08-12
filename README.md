@@ -11,7 +11,7 @@ curl -fsSL https://ollama.com/install.sh | sh
 ollama serve &
 
 3. Pull the Llama 3 model
-ollama pull llama3
+ollama pull llama3.1
 
 4. Test the model
 ollama run llama3
@@ -21,7 +21,7 @@ ubuntu
 snap install ollama
 ollama--version
 
-ollama pull <llm-name>
+ollama pull llama3.1
 
 ## Frameworks used with LLM
 
