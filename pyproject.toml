@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "rag-tools"
+version = "0.1.0"
+description = ""
+authors = ["Ilanchezhian J <ilanchezhian.x.j@haleon.com>"]
+readme = "README.md"
+license = "MIT" # This is a good practice to add
+# Note: requires-python is handled slightly differently in Poetry's format
+# Instead of `requires-python = ">=3.9,<3.13"`, you'll put it in dependencies.
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+langchain = ">=0.3.27,<0.4.0"
+langchain-community = ">=0.3.27,<0.4.0"
+faiss-cpu = ">=1.11.0.post1,<2.0.0"
+ollama = ">=0.5.2,<0.6.0"
+pypdf = ">=5.9.0,<6.0.0"
+langgraph = ">=0.6.4,<0.7.0"
+chromadb = ">=1.0.16,<2.0.0"
+qdrant-client = ">=1.15.1,<2.0.0"
+langchain-qdrant = ">=0.2.0,<0.3.0"
+loguru = ">=0.7.3,<0.8.0"
+llama-index = ">=0.13.1,<0.14.0"
+sentence-transformers = ">=5.1.0,<6.0.0"
+llama-index-embeddings-huggingface = ">=0.6.0,<0.7.0"
+llama-index-llms-ollama = ">=0.7.0,<0.8.0"
+llama-index-embeddings-ollama = "^0.8.0"
+pre-commit = "^4.3.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0"]
+build-backend = "poetry.core.masonry.api"
