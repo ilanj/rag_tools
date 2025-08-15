@@ -21,7 +21,12 @@ ollama run llama3
 
 * ollama--version
 
-    ollama pull llama3.1
+    ollama pull llama3.
+
+* increase swap size to load models and embeddings
+
+    chmod +x increase.sh
+    sudo ./increase_swap.sh 8G  (can be 20G or NG)
 
 ## Frameworks used with LLM
 
@@ -36,6 +41,6 @@ ollama run llama3
         FAISS
 
 2. Disk Store ->
-         chromadb 
+         chromadb
 
-* No cloud db used. Chroma embeddings stored can be uploaded to any CSP and resued still. 
+* No cloud db used. Chroma embeddings stored can be uploaded to any CSP and resued still.
