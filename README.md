@@ -35,7 +35,7 @@ ollama run llama3
 1. Im-Memory ->
         FAISS
 
-2.Disk Store ->
+2. Disk Store ->
          chromadb 
 
 * No cloud db used. Chroma embeddings stored can be uploaded to any CSP and resued still. 
