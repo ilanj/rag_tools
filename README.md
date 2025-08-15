@@ -44,3 +44,9 @@ ollama run llama3
          chromadb
 
 * No cloud db used. Chroma embeddings stored can be uploaded to any CSP and resued still.
+
+## run
+
+* streamlit run rag_tools/langraph_works/runas_streamlit.py
+
+* poetry run python rag_tools/langraph_works/streamlit_langraph.py
