@@ -25,7 +25,7 @@ ollama run llama3
 
 * increase swap size to load models and embeddings
 
-    chmod +x increase.sh
+    chmod +x increase_swap.sh
     sudo ./increase_swap.sh 8G  (can be 20G or NG)
 
 ## Frameworks used with LLM
