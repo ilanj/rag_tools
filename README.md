@@ -21,7 +21,7 @@ ollama run llama3
 
 * ollama--version
 
-ollama pull llama3.1
+    ollama pull llama3.1
 
 ## Frameworks used with LLM
 
@@ -32,10 +32,10 @@ ollama pull llama3.1
 3. LlamaIndex
 
 ## Vector Store
-1. Im-Memory
-   FAISS
+1. Im-Memory ->
+        FAISS
 
-2.Disk Store
-  chromadb 
-  
+2.Disk Store ->
+         chromadb 
+
 * No cloud db used. Chroma embeddings stored can be uploaded to any CSP and resued still. 
